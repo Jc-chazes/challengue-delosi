@@ -24,6 +24,8 @@ export function MatrixForm() {
         onChange={onHandle}
         aria-label="input-matrix"
         type="text"
+        name="input-matrix"
+        id="input-matrix"
       />
       <button
         className="p-1.5 rounded-lg bg-black text-white mt-4 w-full hover:bg-gray-800 focus:outline-none"
